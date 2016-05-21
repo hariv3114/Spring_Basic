@@ -17,11 +17,7 @@
 
 	<!-- Resolves controllers selected for retrieving data for the request -->
 	<beans:bean id="HandlerMaping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></beans:bean>
-	
-	<!-- The url mapping to redirect to the front controller -->
-	<!-- <beans:bean name="/welcome.html" class="com.sprbasic.src.controller.HomeController"></beans:bean> -->
-	
-	
+		
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean id="viewresolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<beans:property name="prefix" value="/WEB-INF/views/" />
