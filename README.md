@@ -1,5 +1,5 @@
 # Spring_Basic
-A repo for testing very basic to intermediate level features  spring applications.
+A repo for testing very basic to intermediate level features of spring applications.
 
 Features Tested:
 ----------------
